@@ -15,7 +15,9 @@ print("Torch Version is : " + torch.__version__)
 # CUDA
 # Check if CUDA is availabe | To verify if the correct version of the PyTorch has been installed
 
+print("Torch Version for CUDA available : ") 
 print(torch.cuda.is_available())
 
+print("Torch Example") 
 x = torch.rand(5, 3)
 print(x)
